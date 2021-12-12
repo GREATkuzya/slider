@@ -1,0 +1,1906 @@
+@media screen and (min-width: 376px){
+
+body {
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.img-chair {
+    display: none;
+}
+
+.play-video {
+    display: none;
+}
+
+.realize-shkaf {
+    display: none;
+}
+
+.realize-more {
+    display: none;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-table {
+    list-style: none;
+    display: flex;
+}
+
+.header-table li > a {
+    display: inline; 
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-right: 47px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-table li > a:hover {
+    color: #E3B873;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-around;
+    background: #131313;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E3B873;
+    height: 83px;
+
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    margin: 0 auto;
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.request-button {
+    width: 161px;
+    height: 37px;
+    font-style: italic;
+}
+
+.button:hover {
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.section-button {
+    width: 207px;
+    height: 51px;
+    font-style: italic;
+    margin-right: 16px;
+}
+
+.header-number a {
+    margin-right: 45px;
+    color: #E3B873;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    }
+
+.main-section {
+    background-image: url(../images/cover-sect1.jpg);
+    background-size: cover;
+    height: 707px;
+    position: relative;
+}
+
+.section-div-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 194px 134px;
+    position: relative;
+}
+
+.section-div-container-header {
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.special-color {
+    color: #E3B873;
+}
+
+.section-div-container p {
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.main-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+} 
+
+h2 {
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    position: relative;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+}
+
+.h3-white {
+    color: white;
+}
+
+.completed-projects p {
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 42px 0;
+    width: 445px;
+}
+
+.completed-projects-items-div span {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.completed-projects {
+    background-color: black;
+    margin: 0;
+    height: 1074px;
+}
+
+.table-comleted-projects {
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    padding-top: 107px;
+    padding-bottom: 45px;
+    padding-left: 549px;
+}
+
+.table-comleted-projects li > a {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.table-comleted-projects li > a:hover {
+    color: #E3B873;
+    text-decoration-line: underline;
+}
+
+.completed-projects-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 442px;
+}
+
+
+.apartment-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.completed-projects-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.completed-projects-items-div {
+    height: 80px;
+    width: 213px;
+    margin-top: 24px;
+}
+
+.container-completed-projects-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1262px;
+    margin: 0 auto;
+}
+
+.slider-img {
+    transition: opacity 800ms ease;
+}
+
+.completed-projects-arrows {
+	display: flex;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.line {
+	margin-right: -7px;
+	margin-left: 15px;
+}
+
+.fline {
+	margin-left: -7px;
+	margin-right: 15px;
+}
+.less {
+	margin-top: 1px;
+}
+
+.dot {
+	margin: 0 15px;
+    opacity: 0.3;
+}
+
+.section-video {
+    margin: 0;
+    height: 1074px;
+}
+.camera {
+    display: flex;
+    margin: 15px;
+}
+
+.dot:hover {
+    opacity: 1;
+}
+
+.div-container-video {
+    margin-top: -300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* Тут начало первой формы */
+
+.name {
+    display: inline;
+    margin-top: 50px;
+}
+
+.linehr {
+    background: #E3B873;
+    border-radius: 30px;
+    margin: 50px auto;
+}
+
+.div-container-video p {
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    width: 652px;
+}
+
+.videoz {
+    margin-top: -440px;
+}
+
+.ellipse {
+    position: absolute;
+    top: 227px;
+    cursor: pointer;
+}
+
+.triangle {
+    position: absolute;
+    top: 281px;
+    cursor: pointer;
+}
+
+.form_input {
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    margin-right: 30px;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+.form_input::placeholder {
+    color: rgb(0, 0, 0);
+    padding-bottom: 8px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+#submit {
+    height: 51px;
+    width: 200px;
+}
+
+.form_name {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.checkbox-container {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    margin: 35px 0 auto;
+    align-items: center;
+    width: 50%;
+  }
+ /* немного выровняем текст подсказки */
+
+ #our_checkbox_label  {
+   margin-left:30px;
+   margin-top: 4px;
+   font-size: 14px;
+   line-height: 23px;
+ 
+ }
+
+/* прячем чекбокс по умолчанию */
+
+.checkbox-container input {
+    position: absolute;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* оформляем кастомный чекбокс */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #E3B873;
+    cursor: pointer;
+    background: white;
+    border-radius: 2px;
+}
+/* При наведении мыши добавляем интерактивности*/
+.checkbox-container:hover input ~ .checkmark {
+    background-color: lightgrey;
+}
+  
+/* Когда галочка должна стоять - оформляем наш кастомный элемент должным образом*/
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #E3B873;
+}
+  
+/* внутренний индикатор для нашего чекбокса в ненажатом состоянии */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* показываем внутренний индикатор при нажатии */
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+/* и задаем стиль для внутреннего индикатора  - позволяет креативить по полной */
+.checkbox-container .checkmark:after {
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+}
+
+.galka {
+	z-index: 1;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+}
+
+input, label{
+    display:block;
+}
+
+.submit-button:hover {
+    color: black;
+    border: 1px solid #E3B873;
+    border-radius: 2px;
+}
+
+.input-label {
+	font-size: 13px;
+	line-height: 21px;
+	color: rgba(54, 54, 54, 0.5);
+}
+
+.section-types-of-repair {
+    margin: 0;
+    max-width: 1440px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+.types-of-repair-header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.types-of-repair-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    width: 1440px;
+}
+
+.decor-ul {
+    display: block;
+    position: relative;
+    width: 330px;
+    height: 286px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 34px;
+}
+
+.decor-ul ul {
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.decor-no-button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    color: white;
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 228px;
+    height: 54px;    
+    position: relative;
+    bottom: 4px;
+}
+
+input, label{
+    display:block;
+}
+
+.input-label-request {
+	font-size: 13px;
+	line-height: 21px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.form_input-request {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    margin: 0;
+	margin-bottom: 40px;
+    outline: none;
+    padding-bottom: 5px;
+	background-color: black;
+	color: white;
+	width: 408px;
+}
+
+.form_input-request::placeholder {
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+
+#submit {
+    height: 51px;
+    width: 200px;
+}
+
+.form_name-request {
+    display: block;
+    width: 440px;
+	height: 509px;
+	background-color: black;
+	margin-bottom: 30px;
+	padding-left: 49px;
+	padding-right: 19px;
+}
+
+h5 {
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 30px;
+    position: relative;
+
+}
+
+.button-request {
+	transform: translate(120px, 29px);
+    padding: 13px 33px;
+    
+}
+
+.checkbox-container-request {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    margin: 0 auto;
+    
+  }
+ /* немного выровняем текст подсказки */
+
+
+
+ #our_checkbox_label-request  {
+   margin-left:30px;
+   margin-top: 6px;
+   color: white;
+   font-size: 14px;
+   line-height: 23px;
+ }
+
+/* прячем чекбокс по умолчанию */
+
+.checkbox-container-request input {
+    position: absolute;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* оформляем кастомный чекбокс */
+
+.checkmark-request {
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #E3B873;
+    cursor: pointer;
+    border-radius: 2px;
+    background: white;
+}
+/* При наведении мыши добавляем интерактивности*/
+.checkbox-container-request:hover input ~ .checkmark-request {
+    background-color: lightgrey;
+}
+  
+/* Когда галочка должна стоять - оформляем наш кастомный элемент должным образом*/
+.checkbox-container-request input:checked ~ .checkmark-request {
+    /* border: 2px solid #E3B873; */
+    background-color: #E3B873;
+}
+  
+/* внутренний индикатор для нашего чекбокса в ненажатом состоянии */
+.checkmark-request:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* показываем внутренний индикатор при нажатии */
+.checkbox-container-request input:checked ~ .checkmark-request:after {
+    display: block;
+}
+  
+/* и задаем стиль для внутреннего индикатора  - позволяет креативить по полной */
+.checkbox-container-request .checkmark-request:after {
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    /* border-radius: 2px; */
+}
+.galka {
+	z-index: 1;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+}
+
+.advantage-form {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-right: 50px;
+    top: 220px;
+}
+
+/* тут пойдет переделанный advantage */
+
+.advantage {
+	display: flex;
+	position: relative;
+    top: 24px;
+    left: 223px;
+}
+
+.advantage-list {
+	display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+    position: relative;
+    background-image: url(../images/bg-image.png);
+    background-size: 100% 100%;
+    height: 650px;
+    width: 650px;
+    bottom: 100px;
+    right: 59px;
+}
+
+.advantage-digit {
+	background: #E3B873;
+	border: 8px solid #FFFFFF;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+	border-radius: 30px;
+	font-family: Yeseva One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 55px;
+	height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+	box-sizing: border-box;
+}
+
+.advantage p {
+	font-size: 14px;
+	line-height: 19px;
+	vertical-align: middle;
+	color: #363636;
+	margin-left: 5px;
+	margin-top: auto;
+    margin-bottom: auto;
+}
+
+.help-save {
+    position: relative;
+    top: 120px;
+    left: 840px;
+    display: flex;
+    width: 350px;
+}
+
+.help-save p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    margin-left: -35px;
+    margin-top: 22px;
+}
+
+.help-save-pig {
+    position: relative;
+    right: 76px;
+    top: 27px;
+}
+
+.help-save-dollar {
+    position: relative;
+    right: 102px;
+    top: 37px;
+}
+
+
+
+.section-realize {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    top: 322px;
+}
+
+.realize-container {
+    position: relative;
+    background-image: url(../images/sect-realize.jpg);
+    background-size: 100% 100%;
+    width: 1440px;
+    height: 864px;
+}
+
+.realize-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.american-ul li {
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    margin-left: 62px;
+    margin-top: 12px;
+    top: 84px;
+}
+
+.img-real {
+    position: absolute;
+}
+
+.img-real1 {
+    bottom: 331px;
+    left: 578px;
+}
+
+.img-real2 {
+    bottom: -51px;
+    left: 578px;
+}
+
+.img-real3 {
+    bottom: 694px;
+    left: 967px;
+}
+
+.img-real4 {
+    bottom: 33px;
+    right: 118px;
+}
+
+.realize-container h5 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #E3B873;
+    text-align: left;
+    margin-left: 100px;
+    top: 112px;
+}
+
+.realize-header {
+    position: relative;
+    top: 129px;
+    left: 100px;
+}
+
+/* тут пошла секция с фотками клиентов */
+
+.our-clients {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    top: 430px;
+
+}
+
+.our-clients-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+ .our-clients-div p {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    margin: 0;
+    
+ }
+
+.client-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.client {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    width: 376px;
+    height: 428px;
+}
+
+.client p {
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    margin: 0 30px;
+}
+
+h6 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 20px;
+}
+
+.client-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 293px;
+    height: 54px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: white;
+    top: 63px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
+
+.client-img {
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+}
+
+.foto-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* тут пошла последняя секция  с формой и картой */
+
+.question-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    top: 430px;
+}
+
+.sky-img {
+    display: flex;
+    flex-wrap: nowrap;
+    opacity: .05;
+    margin-bottom: -15px;
+    margin-top: -50px;
+}
+
+.question-form-input12 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 181px;
+}
+
+.question-form-input3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.question-form-input12 input {
+    width: 231px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+	margin-bottom: 40px;
+    outline: none;
+    padding-bottom: 5px;
+	background-color: black;
+	color: white;
+}
+
+.question-form h3 {
+    padding: 35px 0 50px 0;
+    text-align: center;
+}
+
+.question-form-input3 input {
+    width: 516px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    margin: 0;
+    outline: none;
+    padding-bottom: 5px;
+	background-color: black;
+	color: white;
+    
+}
+
+.question-form input::placeholder {
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.question-form-div {
+    display: block;
+    width: 883px;
+	height: 445px;
+	background-color: black;
+    position: relative;
+    margin: 0 auto;
+    bottom: 207px;
+}
+
+.question-form {
+    position: relative;
+    z-index: 1;
+}
+
+.question-button {
+    width: 200px;
+    height: 51px;
+}
+
+/* оформление еще одного чекбокса */
+
+.checkbox-container-question {
+    display: flex;
+    position: relative;
+    /* justify-content: center;    не работает долго разбираться почему, просто поправлю влево */
+    left: 308px;
+    cursor: pointer;
+    margin: 48px auto 48px auto;
+}
+
+/* оформляем кастомный чекбокс */
+
+.checkmark-question {
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #E3B873;
+    cursor: pointer;
+    border-radius: 2px;
+    background: white;
+}
+/* При наведении мыши добавляем интерактивности*/
+.checkbox-container-question:hover input ~ .checkmark-question {
+    background-color: lightgrey;
+}
+  
+/* Когда галочка должна стоять - оформляем наш кастомный элемент должным образом*/
+.checkbox-container-question input:checked ~ .checkmark-question {
+    /* border: 2px solid #E3B873; */
+    background-color: #E3B873;
+}
+  
+/* внутренний индикатор для нашего чекбокса в ненажатом состоянии */
+.checkmark-question:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* показываем внутренний индикатор при нажатии */
+.checkbox-container-question input:checked ~ .checkmark-question:after {
+    display: block;
+}
+  
+/* и задаем стиль для внутреннего индикатора  - позволяет креативить по полной */
+.checkbox-container-question .checkmark-question:after {
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    /* border-radius: 2px; */
+}
+
+.checkbox-container-question label {
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+
+#our_checkbox_label-question  {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 23px;
+}
+/* Секция с картой */
+
+.map-sect {
+    background-image: url(../images/map-cover.jpg);
+    background-size: cover;
+    height: 953px;
+    position: relative;
+}
+
+.map-sect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.map-div {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 215px;
+}
+
+.link-img {
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    margin: 30px auto;
+    z-index: 1;
+}
+
+.link-img a:hover {
+    opacity: 0.5;
+}
+
+.mail-img {
+    width: 28px;
+    height: 28px;
+}
+
+.map-header {
+    margin-top: 62px;
+    text-align: center;
+    z-index: 1;
+    color: #E3B873;
+    font-size: 20px;
+    line-height: 28px;
+    width: 550px;
+}
+
+.map-header a {
+    text-decoration: none;
+    color: #E3B873;
+}
+
+.map-header a:hover {
+    color: white;
+}
+
+.map-iframe {
+    width: 925px;
+    height: 465px;
+}
+
+}
+@media screen and (max-width: 376px){
+    .our-clients, .header-table, .table-comleted-projects, .completed-projects-arrows, .videoz, .ellipse, .triangle, .chair-div,
+    .advantage-form, .help-save, .american-ul, .img-real, .our-clients, footer, .request-button, .sky-img {
+        display: none;
+    }
+    
+    body {
+        margin: 0;
+        font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        width: 375px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        margin: 0;
+    }
+/* тут начал писать стили для header */
+
+
+
+    .div-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        color: #E3B873;
+        background: #131313;
+        font-size: 11px;
+        line-height: 15px;
+        width: 375px;
+        height: 57px;
+    }
+    header a {
+        font-size: 11px;
+        line-height: 15px;
+        color: #FFFFFF;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    header a:hover {
+        color: #E3B873;
+    }
+
+/* Тут идет первая секция с заголовком */
+
+    .main-section {
+        background-image: url(../images/cover-sect1.jpg);
+        background-size: cover;
+        height: 476px;
+        width: 375px;
+        position: relative;
+    }
+
+    .main-section::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .section-div-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        position: relative;
+        width: 339px;
+    }
+
+    .section-div-container-header {
+        font-family: Yeseva One;
+        font-size: 23px;
+        line-height: 132.83%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 85px;
+        }
+        
+    .special-color {
+       color: #E3B873;
+        }
+
+    .main-section p {
+        font-size: 14px;
+        line-height: 135.84%;
+        color: #FFFFFF;
+    }
+    .section-button {
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px;
+        outline: 0;
+        border: 0;
+        margin-top: 26px;
+        color: white;
+        font-style: italic;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 344px;
+        height: 51px;
+    }
+
+    .button {
+        cursor: pointer;
+        }
+
+    .button:hover {
+        background: none;
+        border: 1px solid white;
+        /* background-color: none; */
+    }    
+
+    #submit:hover {
+        background: white;
+        border: 1px solid black;
+        background-color: white;
+        color: #000;
+        border-radius: 2px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .section-div-container div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    /* тут пошла секция .completed-projects */
+
+    .completed-projects {
+        background: #131313;
+        margin: 0;
+        height: 727px;
+    }
+
+     h2 {
+        font-size: 22px;
+        line-height: 138.6%;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+        color: #E3B873;
+        padding-top: 36px;
+        text-align: center;
+     }
+   .completed-projects-flex p {
+        font-size: 11px;
+        line-height: 158.48%;    
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 22px;
+        width: 340px;
+  }
+    .apartment-area {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        top: 300px;
+    }
+
+    .apartment-area h3 {
+        font-size: 14px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+
+    .apartment-area span {
+        font-size: 11px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .completed-projects-items-div {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-top: 36px;
+        margin-left: 18px;
+    }
+/* не помню зачем сделал этот псевдокласс */
+    /* .completed-projects-div img:nth-child(2) {
+        display: none; 
+    }*/
+
+    .img-chair {
+        display: block;
+        position: relative;
+        bottom: 140px;
+        width: 340px;
+        height: 241px;
+        margin: 0 auto;
+    }
+
+    .less-chair-svg {
+        bottom: 149px;
+        left: -24px;
+    }
+
+    .more-chair-svg {
+        bottom: 149px;       
+        left: 288px;
+    }
+
+  /* тут пошла секция online control */
+
+    .section-video {
+        height: 825px;
+        background: #131313;
+        margin: 0;
+    }
+
+    .h3-white {
+        color: white;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .camera {
+        display: flex;
+        margin: 15px;
+        justify-content: center;
+    }
+
+    .videoimg {
+        width: 340px;
+        height: 207px;
+    }
+
+    .video-div::before {
+        content: '';
+        position: absolute;
+        width: 341px;
+        height: 207px;
+        top: 89px;
+        left: 17px;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .div-container-video {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .play-video {
+        position: absolute;
+        top: 150px;
+        cursor: pointer;
+
+    }
+
+    .linehr {
+        margin-top: 28px;
+    }
+
+    .div-container-video p {
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 340px;
+    }
+
+    /* тут начало первой формы */
+
+    .form_input {
+        border: none;
+        border-bottom: 1px solid lightgrey;
+        outline: none;
+        padding-bottom: 5px;
+        background: #131313;
+        color: white;
+        width: 340px;
+    }
+    
+    .form_input::placeholder {
+        color: white;
+        padding-bottom: 8px;
+         font-size: 14px;
+        line-height: 23px;
+      }
+    
+    #submit {
+        height: 51px;
+        width: 340px;
+        background-color: #E3B873;
+        position: absolute;
+        top: 801px;
+        color: white;
+        border: none;
+    }
+    
+    .form_name {
+        display: flex;
+        flex-wrap: wrap;
+        width: 340px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .checkbox-container {
+        display: flex;
+        position: relative;
+        cursor: pointer;
+        margin: 28px 40px auto -18px;
+      }
+     /* немного выровняем текст подсказки */
+    
+     #our_checkbox_label  {
+       margin-left:30px;
+       margin-top: 4px;
+       font-size: 14px;
+        line-height: 163.68%;
+       color:white;
+     }
+    
+    /* прячем чекбокс по умолчанию */
+    
+    .checkbox-container input {
+        position: absolute;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+    
+    /* оформляем кастомный чекбокс */
+    
+    .checkmark {
+        position: absolute;
+        top: 0;
+        height: 18px;
+        width: 18px;
+        border: 2px solid #E3B873;
+        cursor: pointer;
+        background: white;
+        border-radius: 2px;
+    }
+    /* При наведении мыши добавляем интерактивности*/
+    .checkbox-container:hover input ~ .checkmark {
+        background-color: lightgrey;
+    }
+      
+    /* Когда галочка должна стоять - оформляем наш кастомный элемент должным образом*/
+    .checkbox-container input:checked ~ .checkmark {
+        background-color: #E3B873;
+    }
+      
+    /* внутренний индикатор для нашего чекбокса в ненажатом состоянии */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+      
+    /* показываем внутренний индикатор при нажатии */
+    .checkbox-container input:checked ~ .checkmark:after {
+        display: block;
+    }
+      
+    /* и задаем стиль для внутреннего индикатора  - позволяет креативить по полной */
+    .checkbox-container .checkmark:after {
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        background: #E3B873;
+        /* border-radius: 2px; */
+    }
+    .galka {
+        z-index: 1;
+        position: absolute;
+        left: 4px;
+        top: 4px;
+    }
+    
+    input, label{
+        display:block;
+    }
+    
+    .input-label {
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+        transform: rotate(-0.07deg);
+        margin-top: 69px;
+    }
+
+/* Тут идет секция types of repair */
+
+    .section-types-of-repair {
+        margin: 0;
+    }
+
+    .types-of-repair-header {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-top: 83px;
+    }
+
+    .types-of-repair-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+       
+    }
+
+    .decor-ul {
+        position: relative;
+        width: 270px;
+        height: 241px;
+        background-color: white;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+        margin-top: -147px;
+        margin-left: 17px; 
+    }
+    
+    h4 {
+        font-size: 15px;
+        line-height: 138.6%;
+        color: #363636;
+        margin: 0;
+        padding: 21px 0 4px 28px;
+    }
+
+    .decor-ul ul {
+        font-size: 13px;
+        line-height: 22px;
+        color: #959595;
+    }
+
+    .decor-img {
+        width: 340px;
+        height: 365px;
+        margin-left: 18px;
+    }
+
+    .decor-no-button {
+        background: #E3B873;
+        box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+        outline: 0;
+        border: 0;
+        color: white;
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+        text-align: center;
+        width: 190px;
+        height: 40px;    
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .types-of-repair-div {
+        margin-bottom: 79px;
+    }
+
+    /* дальше пошла секция со шкафом */
+
+    .realize-header {
+        position: relative;
+        bottom: 15px;
+    }
+
+    .realize-container h5 {
+        display: none;
+    }
+
+    .realize-shkaf {
+        width: 340px;
+        height: 242px;
+        position: relative;
+        top: 18px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .less-svg {
+        background: #E3B873;
+        border: 12px solid #e3b873;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .less-shkaf-svg {
+        bottom: 119px;
+        right: 4px;
+    }
+
+    .more-svg {
+        background: #E3B873;
+        border: 12px solid #e3b873;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .more-shkaf-svg {
+        bottom: 119px;
+        left: 305px;
+    }
+
+ /* тут пойдет карта и форма */
+
+    .question-section {
+        margin: 0 auto;
+        position: relative;
+        margin-top: -143px;
+    }
+
+ .question-form-input12 {
+    margin: 0 18px;
+}
+
+.question-form-input3 {
+    width: 340px;
+    margin: 0 auto;
+}
+
+
+.question-form-input12 input {
+    width: 340px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 40px;
+    outline: none;
+    padding-bottom: 5px;
+	background-color: #131313;
+    color: white;
+	}
+
+.question-form h3 {
+    padding: 35px 0 50px 0;
+    text-align: center;
+}
+
+.question-form-input3 input {
+    width: 340px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    outline: none;
+    padding-bottom: 5px;
+	background-color: #131313;
+	color: white;
+    
+}
+
+.question-form input::placeholder {
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.question-form-div {
+	background-color: #131313;
+    position: relative;
+    padding-top: 131px;
+}
+
+.question-form {
+    position: relative;
+  
+}
+
+.question-form label {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.question-button {
+    width: 340px;
+    height: 51px;
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* оформление еще одного чекбокса */
+
+.checkbox-container-question {
+    display: flex;
+    position: relative;
+    /* justify-content: center;    не работает долго разбираться почему, просто поправлю влево */
+    left: 14px;
+    cursor: pointer;
+    margin: 23px auto 67px auto;
+}
+
+/* оформляем кастомный чекбокс */
+
+.checkmark-question {
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #E3B873;
+    cursor: pointer;
+    border-radius: 2px;
+    background: white;
+}
+/* При наведении мыши добавляем интерактивности*/
+.checkbox-container-question:hover input ~ .checkmark-question {
+    background-color: lightgrey;
+}
+  
+/* Когда галочка должна стоять - оформляем наш кастомный элемент должным образом*/
+.checkbox-container-question input:checked ~ .checkmark-question {
+    /* border: 2px solid #E3B873; */
+    background-color: #E3B873;
+}
+  
+/* внутренний индикатор для нашего чекбокса в ненажатом состоянии */
+.checkmark-question:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* показываем внутренний индикатор при нажатии */
+.checkbox-container-question input:checked ~ .checkmark-question:after {
+    display: block;
+}
+  
+/* и задаем стиль для внутреннего индикатора  - позволяет креативить по полной */
+.checkbox-container-question .checkmark-question:after {
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    border-radius: 2px;
+}
+
+.checkbox-container-question label {
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+
+#our_checkbox_label-question  {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/* карта */
+
+    .map-sect {
+    width: 375px;
+      
+}
+
+    .map-header {
+        font-size: 18px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+        }
+
+    .map-div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin: 0 auto;
+        position: relative;
+        align-items: center;
+        background-color: #131313;
+        height: 525px;
+    }
+
+    .map-iframe {
+        width: 340px;
+        height: 225px;
+    }
+
+    .map-header a {
+        text-decoration: none;
+        color: #E3B873;
+    }
+
+    .map-header a:hover {
+        color: white;
+    }
+
+    .link-img {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0 auto;
+        order: -1;
+    }
+    
+    .link-img a:hover {
+        opacity: 0.5;
+    }
+
+    .mail-img {
+        width: 39px;
+        height: 39px;
+    }
+
+    .section-realize {
+        position: relative;
+    }
+
+   }
