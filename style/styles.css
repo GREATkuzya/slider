@@ -216,6 +216,7 @@ h3 {
     color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
     margin-right: 70px;
+    cursor: pointer;
 }
 
 .table-comleted-projects li > a:hover {
