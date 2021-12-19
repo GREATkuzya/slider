@@ -1,10 +1,9 @@
+function initSlider() { 
+
 const slides = document.querySelectorAll(".slider-img");
 const next = document.querySelector(".arrow-right");
 const prev = document.querySelector(".arrow-left");
 const sliderDots = document.querySelectorAll(".dot");
-const linkAdmiral = document.querySelector(".link-admiral");
-const linkThieves = document.querySelector(".link-thieves");
-const linkPatriotic = document.querySelector(".link-patriotic");
 const linkHotels = document.querySelectorAll(".link-hotels");
 const admiralDesk = document.querySelectorAll(".admiral-desc");
 const thievesDesk = document.querySelectorAll(".thieves-desc");
@@ -24,11 +23,14 @@ function showSlides(n) {
     if (n < 1) {
         slideIndex = slides.length;
     }
-    slides.forEach(item => item.style.display = "none");
-    slides[slideIndex - 1].style.display = "";    
+    slides.forEach(item => item.classList.toggle("hidden", true));
+    slides.forEach(item => item.classList.toggle("active", false));
+    slides[slideIndex - 1].classList.remove("hidden");    
+    slides[slideIndex - 1].classList.add("active");
     linkConnect(slideIndex);
     showDescription(slideIndex);
 }
+
 
 function nextSlides(n) {
     showSlides(slideIndex += n);
@@ -45,16 +47,16 @@ function initDots(n) {
     sliderDots.forEach(item => item.style.opacity = "0.3");
     sliderDots[dotIndex -1].style.opacity = "1";
 }
-// функция возможно лишняя, но не получается результат через другие функции
+
+
+// функция клика по точке
 function dotClick(index) {
-    slides.forEach(item => item.style.display = "none");
-    slides[index].style.display = "";    
-    sliderDots.forEach(item => item.style.opacity = "0.3");
-    sliderDots[index].style.opacity = "1";
     slideIndex = index+1;
     dotIndex = index +1;
     linkConnect(slideIndex);
     showDescription(slideIndex);
+    showSlides(slideIndex);
+    initDots(slideIndex);
 }
 
 
@@ -66,15 +68,15 @@ function showDescription(n) {
         patrioticDesk.forEach(item => item.style.display = "none");
     } if 
         (n === 2) {
-            admiralDesk.forEach(item => item.style.display = "none");
-            thievesDesk.forEach(item => item.style.display = "");
-            patrioticDesk.forEach(item => item.style.display = "none");
+        admiralDesk.forEach(item => item.style.display = "none");
+        thievesDesk.forEach(item => item.style.display = "");
+        patrioticDesk.forEach(item => item.style.display = "none");
     }
       if 
         (n === 3) {
-            admiralDesk.forEach(item => item.style.display = "none");
-            thievesDesk.forEach(item => item.style.display = "none");
-            patrioticDesk.forEach(item => item.style.display = "");
+        admiralDesk.forEach(item => item.style.display = "none");
+        thievesDesk.forEach(item => item.style.display = "none");
+        patrioticDesk.forEach(item => item.style.display = "");
     }
 }
 
@@ -86,47 +88,18 @@ prev.addEventListener("click", () => {
     nextSlides(-1);
 });
 
+// переключение  по точкам
+for (let dotNum=0; dotNum<sliderDots.length; dotNum++) {
+    sliderDots[dotNum].addEventListener("click", () => {
+        dotClick(dotNum);
+    })
+    }
 
-// переключение  по точкам, надо упростить как то одним выражением, через индекс
-sliderDots[1].addEventListener("click", () => {
-    // showSlides(2);  по идее эти 2 функции должны делать то же, что и эта оставшаяся, но они не отрабатывают, незнаю почему
-    // initDots(2);
-    dotClick(1);
-    console.log(slideIndex, dotIndex);
+// переключение  по ссылкам
+for (let linkNum=0; linkNum<linkHotels.length; linkNum++) 
+linkHotels[linkNum].addEventListener("click", () =>{
+    dotClick(linkNum);
    })
-
-sliderDots[0].addEventListener("click", () => {
-    dotClick(0);
-    // showSlides(1);
-    // initDots(1);
-    console.log(slideIndex, dotIndex);
-})
-
-sliderDots[2].addEventListener("click", () => {
-    // showSlides(3);
-    // initDots(3);
-    dotClick(2);
-    console.log(slideIndex, dotIndex);
-})
-
-// переключение  по ссылкам, надо упростить как то одним выражением, через индекс
-linkAdmiral.addEventListener("click", () =>{
-    dotClick(0);
-    linkConnect(slideIndex);
-    showDescription(slideIndex);
-})
-
-linkThieves.addEventListener("click", () =>{
-    dotClick(1);
-    linkConnect(slideIndex);
-    showDescription(slideIndex);
-})
-
-linkPatriotic.addEventListener("click", () =>{
-    dotClick(2);
-    linkConnect(slideIndex);
-    showDescription(slideIndex);
-})
 
 // делает ссылкам нужный стиль
 function linkConnect(n) {
@@ -141,3 +114,8 @@ function linkConnect(n) {
     linkHotels[slideIndex - 1].style.color = "#E3B873";    
     linkHotels[slideIndex - 1].style.textDecorationLine = "underline";
 }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    initSlider();
+});

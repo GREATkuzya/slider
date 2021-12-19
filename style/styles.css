@@ -1,5 +1,25 @@
 @media screen and (min-width: 376px){
 
+.hidden {
+width: 0;
+height: 0;
+ opacity: 0;
+ /* transition: display 800ms ease; */
+}
+
+.active {
+    display: block;
+    opacity: 1;
+    transition: opacity 800ms ease;
+}
+
+.chair-div {
+    width: 679px;
+    height: 482px;
+    display: flex;
+    justify-items: center;
+}
+
 body {
     font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -192,7 +212,7 @@ h3 {
 }
 
 .completed-projects {
-    background-color: black;
+    background-color: #131313;
     margin: 0;
     height: 1074px;
 }
@@ -257,9 +277,6 @@ h3 {
     margin: 0 auto;
 }
 
-.slider-img {
-    transition: opacity 800ms ease;
-}
 
 .completed-projects-arrows {
 	display: flex;
